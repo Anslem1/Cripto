@@ -78,6 +78,10 @@
           margin: 0;
      }
 
+     .market-name{
+          font-size: 20px;
+     }
+
      .market-info {
           display: flex;
           flex-direction: column;
