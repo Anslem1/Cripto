@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Telugu:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.trending {
+     font-size: 45px;
+     color: white;
+     margin-bottom: 50px;
+     margin-left: 20px;
+     font-family: inter;
+}
+
+.trending-container {
+     display: grid;
+     justify-content: center;
+     grid-template-columns: 1fr repeat(1, minmax(auto, 1fr)) 1fr;
+     gap: 30px;
+     margin: 30px;
+}
+.trending-content {
+     background-image: linear-gradient(to top right, rgb(225, 0, 255), #06f0b9);
+     width: 90%;
+     border-radius: 70px;
+     display: flex;
+     flex-direction: column;
+}
+.coin-name-container {
+     display: flex;
+     gap: 10px;
+     justify-content: start;
+     align-items: center;
+     margin: 10px;
+}
+.coin-name-container img {
+     border-radius: 50%;
+     height: 50%;
+}
+
+.coin-name-container h2 {
+     font-family: "Open sans";
+     color: #4e3f42;
+}
+
+.coin-info {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+}
+
+.coin-info p {
+     font-family: noto serif telugu;
+}
+
+@media screen and (max-width: 1200px) {
+     .trending-container {
+          display: flex;
+          flex-direction: column;
+          margin: 10px;
+     }
+
+     .trending-content {
+          width: 100%;
+          border-radius: 35px;
+     }
+}
